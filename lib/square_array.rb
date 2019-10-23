@@ -3,5 +3,6 @@ def square_array(array)
   while count < array.length do
     puts array
     count ** 2
+    break
   end
 end
